@@ -15,6 +15,8 @@ Example:
     - http://localhost:9000/html
     - http://localhost:9000/text 
     - http://localhost:9000/image
+    - http://localhost:9000/text_everything/Best%20Regards,%20Victoria%20flask
+    - http://localhost:9000/house
 
 Before running this project:
 

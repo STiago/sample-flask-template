@@ -17,7 +17,7 @@ def text_function():
 def img_function():
     return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Images</title></head><body><img src="static/images/image.jpg" alt="imagen1"/><img src="static/images/logougr.jpg" alt="imagen"/></body></html>'
 
-@app.route('/text/everything')
+@app.route('/text_everything')
 def everything(evr):
     resp = Response()
     resp.headers['Content-Type'] = 'text/plain; charset=utf-8'
